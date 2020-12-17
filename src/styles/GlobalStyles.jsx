@@ -2,8 +2,6 @@
 
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'polished';
-import { primaryFont, secondaryFont, titleFont } from './typography';
-
 export const GlobalStyle = createGlobalStyle`
   ${normalize()}
   * { 
@@ -21,4 +19,19 @@ export const GlobalStyle = createGlobalStyle`
   *, *:before, *:after  { 
     box-sizing: inherit
   }
-`
+
+  body { 
+    font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: ${(props) => props.theme.primaryBackgroundColor}; 
+  overflow-x: hidden;  
+  }
+
+  h1,
+  h2,
+  h3 { 
+    font-family: 'Source Sans Pro', sans-serif;
+
+  }
+`;
