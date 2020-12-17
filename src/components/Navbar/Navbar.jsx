@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons'
+import { FaBars, FaTimes } from 'react-icons';
+import { ThemeProvider } from 'styled-components';
+import { lightTheme, darkTheme } from '../../styles/Themes';
+
 import {
   Nav,
   NavbarContainer,
