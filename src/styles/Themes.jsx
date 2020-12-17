@@ -1,6 +1,6 @@
 /* eslint-disable */
-import {} from './Colors';
-import {} from './typography';
+import {light, dark, blue} from './Colors';
+import {primaryFont, secondaryFont} from './typography';
 
 export const lightTheme = {
   primaryBackgroundColor: light[200],
@@ -9,6 +9,8 @@ export const lightTheme = {
   textColorOnPrimary: light[100],
   backgroundColorTheme: blue[100],
   jobPostListingsColor: blue[300],
+  primaryFont,
+  secondaryFont,
 };
 
 
@@ -19,4 +21,7 @@ export const darkTheme = {
   textColorOnPrimary: dark[100],
   backgroundColorTheme: blue[100],
   jobPostListingsColor: blue[300],
+  primaryFont,
+  secondaryFont,
+
 };
