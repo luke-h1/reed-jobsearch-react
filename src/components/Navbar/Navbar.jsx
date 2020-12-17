@@ -1,5 +1,6 @@
+/* eslint-disable */
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from '../../styles/Themes';
 
@@ -31,7 +32,7 @@ const Navbar = ({ theme, toggleTheme }) => {
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
-              Luke H
+                React reed searcher
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -43,18 +44,18 @@ const Navbar = ({ theme, toggleTheme }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/projects" onClick={closeMobileMenu}>
-                  Projects
+                <NavLinks to="/courses" onClick={closeMobileMenu}>
+                  Courses
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="/blog" onClick={closeMobileMenu}>
-                  Blog
+                  Search
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="/contact" onClick={closeMobileMenu}>
-                  Contact
+                  recruiters
                 </NavLinks>
               </NavItem>
               <NavItemBtn>

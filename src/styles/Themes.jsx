@@ -23,5 +23,4 @@ export const darkTheme = {
   jobPostListingsColor: blue[300],
   primaryFont,
   secondaryFont,
-
 };

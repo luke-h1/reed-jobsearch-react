@@ -2,6 +2,7 @@
 
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'polished';
+import {primaryFont, secondaryFont} from './typography';
 export const GlobalStyle = createGlobalStyle`
   ${normalize()}
   * { 
@@ -21,17 +22,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body { 
-    font-family: 'Roboto', sans-serif;
+    font-family:${primaryFont};
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: ${(props) => props.theme.primaryBackgroundColor}; 
   overflow-x: hidden;  
   }
 
   h1,
   h2,
   h3 { 
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: ${secondaryFont};
 
   }
 `;
