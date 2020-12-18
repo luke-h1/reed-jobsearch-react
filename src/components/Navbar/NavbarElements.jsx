@@ -22,11 +22,11 @@ export const NavbarContainer = styled(Container)`
   justify-content: space-between;
   height: 60px;
   ${Container}
-  color: ${(props) => props.theme.primaryColor}; 
+  color: ${(props) => props.theme.primaryTextColor}; 
 `;
 
 export const NavLogo = styled(Link)`
-  color: ${(props) => props.theme.primaryColor}; 
+  color: ${(props) => props.theme.primaryTextColor}; 
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
@@ -51,7 +51,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.6rem;
     cursor: pointer;
-    color: ${(props) => props.theme.primaryColor}; 
+    color: ${(props) => props.theme.primaryTextColor}; 
   }
 `;
 
@@ -74,7 +74,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-200%')};
     opacity: 1;
     transition: all 0.2s ease;
-    background: ${(props) => props.theme.primaryNavColor}; 
+    background: ${(props) => props.theme.primaryBackgroundColor}; 
     font-size: 1.8rem;
     font-weight: 700;
     overflow-y: hidden; /* Hide vertical scrollbar */
@@ -114,7 +114,7 @@ export const NavItemBtn = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: ${(props) => props.theme.primaryColor};
+  color: ${(props) => props.theme.primaryTextColor};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -149,7 +149,7 @@ export const NavBtnLink = styled(Link)`
 `;
 
 export const Sun = styled(FiSun)`
-  color: ${(props) => props.theme.primaryColor}; 
+  color: ${(props) => props.theme.primaryTextColor}; 
   font-size: 25px;
   &:hover { 
     cursor: pointer;
@@ -161,7 +161,7 @@ export const Sun = styled(FiSun)`
 `;
 
 export const Moon = styled(FiMoon)`
-  color: ${(props) => props.theme.primaryColor}; 
+  color: ${(props) => props.theme.primaryTextColor}; 
   font-size: 25px;
   &:hover { 
     cursor: pointer;
@@ -171,10 +171,7 @@ export const Moon = styled(FiMoon)`
 
 
   }
-
-
 `;
-
 
 export const IconContainer = styled.div`
   margin-left: 10px;

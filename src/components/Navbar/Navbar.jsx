@@ -55,10 +55,9 @@ const Navbar = ({ theme, toggleTheme }) => {
               </NavItem>
               <NavItem>
                 <NavLinks to="/recruiters" onClick={closeMobileMenu}>
-                  recruiters
+                  Recruiters
                 </NavLinks>
               </NavItem>
-
               <NavItemBtn>
                 <NavBtnLink>
                   <IconContainer>

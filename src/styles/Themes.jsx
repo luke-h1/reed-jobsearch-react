@@ -9,6 +9,7 @@ export const lightTheme = {
   textColorOnPrimary: light[100],
   backgroundColorTheme: blue[100],
   jobPostListingsColor: blue[300],
+  primaryHoverColor: blue[300],
   primaryFont,
   secondaryFont,
 };
@@ -16,7 +17,8 @@ export const lightTheme = {
 
 export const darkTheme = {
   primaryBackgroundColor: dark[100],
-  primaryTextColor: light[100],
+  primaryTextColor: dark[100],
+  primaryHoverColor: blue[300],
   darkTextColor: dark[100],
   textColorOnPrimary: dark[100],
   backgroundColorTheme: blue[100],
