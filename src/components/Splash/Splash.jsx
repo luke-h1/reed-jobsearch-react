@@ -21,7 +21,7 @@ const Splash = () => (
         <SplashForm>
           <SplashInput />
           <SplashInput />
-          <SplashButton>Search Jobs</SplashButton>
+          <SplashButton rounded="true">Search Jobs</SplashButton>
         </SplashForm>
       </SplashGrid>
     </SplashSection>

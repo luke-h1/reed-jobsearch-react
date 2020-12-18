@@ -49,13 +49,15 @@ export const SplashTitle = styled.h1`
 `;
 
 export const SplashForm = styled.form`
-  width:500px;
+  width: 500px;
+  display: block;
   margin: 0 auto;
-`
+`;
 
 export const SplashInput = styled.input`
   padding: 1rem;
-`
+  margin: 0 10px 20px 10px;
+`;
 
 export const SplashButton = styled.button`
   background: ${({ primary }) => (primary ? '#f26a2e' : '#077bf1')};
@@ -65,7 +67,7 @@ export const SplashButton = styled.button`
   font-size: ${({ big }) => (big ? '20px' : '16px')};
   outline: 0;
   border: none;
-  min-width: 100px;
+  min-width: 50px;
   cursor: pointer;
   text-decoration: none;
   transition: 0.3s !important;
@@ -77,8 +79,4 @@ export const SplashButton = styled.button`
   @media (max-width: 900px) {
     display: none;
   }
-`
-
-// SplashForm,
-// SplashInput,
-// SplashButton,
+`;
