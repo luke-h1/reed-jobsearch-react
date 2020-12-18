@@ -2,6 +2,7 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import Navbar from '../../components/Navbar/Navbar';
+import Splash from '../../components/Splash/Splash'
 import { lightTheme, darkTheme } from '../../styles/Themes';
 import { useDarkTheme } from '../../hooks/useDarkMode';
 
@@ -14,6 +15,7 @@ const Home = () => {
     <>
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <Navbar />
+        <Splash />
       </ThemeProvider>
     </>
   );
