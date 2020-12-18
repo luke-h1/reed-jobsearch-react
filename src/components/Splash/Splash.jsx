@@ -11,7 +11,7 @@ const Splash = () => (
   <>
     <SplashSection>
       <SplashGrid>
-        <SplashTitle />
+        <SplashTitle>Love Mondays</SplashTitle>
         <SplashContainer />
       </SplashGrid>
     </SplashSection>

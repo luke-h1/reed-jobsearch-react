@@ -11,6 +11,7 @@ export const lightTheme = {
   secondaryBlueColor: blue[200],
   jobPostListingsColor: blue[300],
   primaryHoverColor: blue[300],
+  primaryLightColor: light[100],
   primaryFont,
   secondaryFont,
 };

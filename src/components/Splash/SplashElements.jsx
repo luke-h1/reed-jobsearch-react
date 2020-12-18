@@ -43,5 +43,6 @@ export const SplashContainer = styled.div`
 `;
 
 export const SplashTitle = styled.h1`
-  color: ${(props) => props.theme.primaryTextColor};
+  color: ${(props) => props.theme.primaryLightColor};
+  font-size: 60px;
 `;
