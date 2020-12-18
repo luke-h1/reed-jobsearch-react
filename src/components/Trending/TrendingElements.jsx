@@ -1,7 +1,6 @@
 /* eslint-disable */
 import styled from 'styled-components';
 
-
 export const TrendingWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -11,14 +10,13 @@ export const TrendingWrapper = styled.div`
   align-items: center;
   min-height: 35vh;
   margin: 0 auto;
-  background:${(props) => props.theme.primaryLightBackgroundColor};
-`
+  background: ${(props) => props.theme.primaryLightBackgroundColor};
+`;
 
 export const TrendingTitle = styled.h1`
   text-align: center;
   border-bottom: 2px solid ${(props) => props.theme.secondaryBlueColor};
-
-`
+`;
 
 export const TrendingContainer = styled.div`
   display: flex;

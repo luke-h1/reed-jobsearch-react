@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  SectorContainer,
-  SectorTitle,
-  SectorWrapper,
-} from './SectorElements';
+import { SectorContainer, SectorTitle, SectorWrapper } from './SectorElements';
 
 const Sector = () => (
   <>

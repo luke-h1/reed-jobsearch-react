@@ -32,7 +32,7 @@ const Navbar = ({ theme, toggleTheme }) => {
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
-                React Reed searcher
+              React Reed searcher
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

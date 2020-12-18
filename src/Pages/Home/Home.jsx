@@ -11,7 +11,8 @@ import { useDarkTheme } from '../../hooks/useDarkMode';
 
 const Home = () => {
   const [theme, setTheme] = useDarkTheme(
-    (typeof window !== 'undefined' && window.localStorage.getItem('theme')) || 'light',
+    (typeof window !== 'undefined' && window.localStorage.getItem('theme')) ||
+      'light'
   );
 
   return (
@@ -20,7 +21,7 @@ const Home = () => {
         <Navbar />
         <Splash />
         <Trending />
-        <Sector /> 
+        <Sector />
         <Location />
       </ThemeProvider>
     </>

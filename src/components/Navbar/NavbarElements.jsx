@@ -6,15 +6,15 @@ import { FiSun, FiMoon } from 'react-icons/fi';
 import { Container } from '../../utils/Containers/Container';
 
 export const Nav = styled.nav`
-  background: ${(props) => props.theme.primaryNavColor}; 
+  background: ${(props) => props.theme.primaryNavColor};
   height: 60px;
   display: flex;
   justify-content: center;
   /* padding: 0.1rem calc((100vw - 1300px) / 2); */
   z-index: 999;
   position: relative;
-  border-bottom: 1px solid ${(props) => props.theme.textOnDisabled}; 
-    min-width: 100vw;
+  border-bottom: 1px solid ${(props) => props.theme.textOnDisabled};
+  min-width: 100vw;
 `;
 
 export const NavbarContainer = styled(Container)`
@@ -22,11 +22,11 @@ export const NavbarContainer = styled(Container)`
   justify-content: space-between;
   height: 60px;
   ${Container}
-  color: ${(props) => props.theme.primaryTextColor}; 
+  color: ${(props) => props.theme.primaryTextColor};
 `;
 
 export const NavLogo = styled(Link)`
-  color: ${(props) => props.theme.primaryTextColor}; 
+  color: ${(props) => props.theme.primaryTextColor};
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
@@ -34,7 +34,6 @@ export const NavLogo = styled(Link)`
   display: flex;
   align-items: center;
   font-family: ${(props) => props.theme.titleFont};
-
 `;
 
 export const NavIcon = styled(BiCodeBlock)`
@@ -51,7 +50,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.6rem;
     cursor: pointer;
-    color: ${(props) => props.theme.primaryTextColor}; 
+    color: ${(props) => props.theme.primaryTextColor};
   }
 `;
 
@@ -74,7 +73,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-200%')};
     opacity: 1;
     transition: all 0.2s ease;
-    background: ${(props) => props.theme.primaryBackgroundColor}; 
+    background: ${(props) => props.theme.primaryBackgroundColor};
     font-size: 1.8rem;
     font-weight: 700;
     overflow-y: hidden; /* Hide vertical scrollbar */
@@ -130,7 +129,7 @@ export const NavLinks = styled(Link)`
     text-align: center;
     width: 100%;
     &:hover {
-      color: ${(props) => props.theme.primaryHoverColor}; 
+      color: ${(props) => props.theme.primaryHoverColor};
       transition: all 0.3s ease;
     }
   }
@@ -149,30 +148,27 @@ export const NavBtnLink = styled(Link)`
 `;
 
 export const Sun = styled(FiSun)`
-  color: ${(props) => props.theme.primaryTextColor}; 
+  color: ${(props) => props.theme.primaryTextColor};
   font-size: 25px;
-  &:hover { 
+  &:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: scale(1s);
     color: ${(props) => props.theme.primaryHoverColorYellow};
   }
-
 `;
 
 export const Moon = styled(FiMoon)`
-  color: ${(props) => props.theme.primaryTextColor}; 
+  color: ${(props) => props.theme.primaryTextColor};
   font-size: 25px;
-  &:hover { 
+  &:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: scale(1s);
     color: ${(props) => props.theme.primaryHoverColor};
-
-
   }
 `;
 
 export const IconContainer = styled.div`
   margin-left: 10px;
-`
+`;

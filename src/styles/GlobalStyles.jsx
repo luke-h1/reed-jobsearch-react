@@ -2,7 +2,7 @@
 
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'polished';
-import {primaryFont, secondaryFont} from './typography';
+import { primaryFont, secondaryFont } from './typography';
 export const GlobalStyle = createGlobalStyle`
   ${normalize()}
   * { 
