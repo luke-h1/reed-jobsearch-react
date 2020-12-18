@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 
-export const TrendingWrapper = styled.div`
+export const LocationWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,13 +14,12 @@ export const TrendingWrapper = styled.div`
   background:${(props) => props.theme.primaryLightBackgroundColor};
 `
 
-export const TrendingTitle = styled.h1`
+export const LocationTitle = styled.h1`
   text-align: center;
   border-bottom: 2px solid ${(props) => props.theme.secondaryBlueColor};
-
 `
 
-export const TrendingContainer = styled.div`
+export const LocationContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import Navbar from '../../components/Navbar/Navbar';
 import Splash from '../../components/Splash/Splash';
 import Sector from '../../components/Sector/Sector';
+import Location from '../../components/Locations/Location';
 import Trending from '../../components/Trending/Trending';
 import { lightTheme, darkTheme } from '../../styles/Themes';
 import { useDarkTheme } from '../../hooks/useDarkMode';
@@ -20,6 +21,7 @@ const Home = () => {
         <Splash />
         <Trending />
         <Sector /> 
+        <Location />
       </ThemeProvider>
     </>
   );
