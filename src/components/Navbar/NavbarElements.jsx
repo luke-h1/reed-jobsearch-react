@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   background: ${(props) => props.theme.primaryNavColor}; 
   height: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   /* padding: 0.1rem calc((100vw - 1300px) / 2); */
   z-index: 999;
   position: relative;

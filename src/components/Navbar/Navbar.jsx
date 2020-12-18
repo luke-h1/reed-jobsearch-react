@@ -49,15 +49,16 @@ const Navbar = ({ theme, toggleTheme }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/blog" onClick={closeMobileMenu}>
+                <NavLinks to="/search" onClick={closeMobileMenu}>
                   Search
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/contact" onClick={closeMobileMenu}>
+                <NavLinks to="/recruiters" onClick={closeMobileMenu}>
                   recruiters
                 </NavLinks>
               </NavItem>
+
               <NavItemBtn>
                 <NavBtnLink>
                   <IconContainer>
