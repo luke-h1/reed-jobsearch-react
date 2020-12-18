@@ -20,7 +20,7 @@ export const lightTheme = {
 
 export const darkTheme = {
   primaryBackgroundColor: dark[100],
-  primaryTextColor: dark[100],
+  primaryTextColor: dark[100], /* need to fix this */
   primaryHoverColor: blue[300],
   darkTextColor: dark[100],
   secondaryBlueColor: blue[200],
