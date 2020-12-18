@@ -18,17 +18,16 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  primaryBackgroundColor: dark[100],
-  primaryTextColor: dark[100] /* need to fix this */,
-  primaryHoverColor: blue[300],
+  primaryBackgroundColor: light[200],
+  primaryTextColor: dark[100],
   darkTextColor: dark[100],
+  textColorOnPrimary: light[100],
+  backgroundColorTheme: blue[100],
   secondaryBlueColor: blue[200],
-  backgroundColorTheme: blue[100],
-  darkTextColor: dark[100],
-  textColorOnPrimary: dark[100],
-  backgroundColorTheme: blue[100],
   jobPostListingsColor: blue[300],
-  primaryLightBackgroundColor: light[100],
+  primaryHoverColor: blue[300],
+  primaryLightColor: light[100],
+  primaryLightBackgroundColor: neutral[200],
   primaryFont,
   secondaryFont,
 };

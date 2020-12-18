@@ -6,14 +6,14 @@ import { FiSun, FiMoon } from 'react-icons/fi';
 import { Container } from '../../utils/Containers/Container';
 
 export const Nav = styled.nav`
-  background: ${(props) => props.theme.primaryNavColor};
-  height: 60px;
+  background: ${(props) => props.theme.primaryBackgroundColor};
+  height: 80px;
   display: flex;
   justify-content: center;
   /* padding: 0.1rem calc((100vw - 1300px) / 2); */
   z-index: 999;
   position: relative;
-  border-bottom: 1px solid ${(props) => props.theme.textOnDisabled};
+  /* border-bottom: 1px solid ${(props) => props.theme.textOnDisabled}; */
   min-width: 100vw;
 `;
 
