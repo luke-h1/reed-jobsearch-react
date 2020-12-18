@@ -5,6 +5,9 @@ import {
   SplashGrid,
   SplashTitle,
   SplashContainer,
+  SplashForm,
+  SplashInput,
+  SplashButton,
 } from './SplashElements';
 
 const Splash = () => (
@@ -12,7 +15,14 @@ const Splash = () => (
     <SplashSection>
       <SplashGrid>
         <SplashTitle>Love Mondays</SplashTitle>
-        <SplashContainer />
+        <SplashContainer>
+          <p>Search for xxxxxxx amount of jobs, xxxxx amount posts today</p>
+        </SplashContainer>
+        <SplashForm>
+          <SplashInput />
+          <SplashInput />
+          <SplashButton>Search Jobs</SplashButton>
+        </SplashForm>
       </SplashGrid>
     </SplashSection>
   </>
