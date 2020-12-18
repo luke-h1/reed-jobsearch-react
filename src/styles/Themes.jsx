@@ -8,6 +8,7 @@ export const lightTheme = {
   darkTextColor: dark[100],
   textColorOnPrimary: light[100],
   backgroundColorTheme: blue[100],
+  secondaryBlueColor: blue[200],
   jobPostListingsColor: blue[300],
   primaryHoverColor: blue[300],
   primaryFont,

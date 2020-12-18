@@ -13,6 +13,7 @@ export const blue = {
   100: '#0279D1',
   200: '#085BBB',
   300: '#0279D1', 
+  400: '#23B5D3',
 }
 
 export const red = { 
